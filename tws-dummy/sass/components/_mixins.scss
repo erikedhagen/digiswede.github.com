@@ -1,0 +1,38 @@
+
+@mixin transition($prop: all, $time: 0.15s, $easing: ease-in-out) {
+	-webkit-transition: $prop $time $easing;
+	-moz-transition: $prop $time $easing;
+	-ms-transition: $prop $time $easing;
+	transition: $prop $time $easing;
+}
+
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+@mixin anim-spin($time: 1s) {
+    -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: $time;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spinnerRotate;
+    -moz-animation-duration: $time;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spinnerRotate;
+    -ms-animation-duration: $time;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}

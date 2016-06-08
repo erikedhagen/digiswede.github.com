@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="pound-main">
+      <h1>Calculate compound interest</h1>
+      <form id="pound-form" action="">
+        <div class="block-group input-block">
+          <input class="pound-input" name="initial" type="text" placeholder="Inital value" />
+          <input class="pound-input" name="monthly" type="text" placeholder="Monthly addition" />
+          <input class="pound-input" name="interest" type="text" placeholder="Interest" />
+          <input class="pound-input" name="years" type="text" placeholder="Time (years)" />
+          <input class="pound-input" name="period" type="text" placeholder="Interest period" />
+        </div>
+        <button id="button-calculate">Calculate</button>
+        <input id="output" class="pound-output" type="text" name="output" disabled />
+      </form>
+    </div>
+
+    <script type="text/javascript" src="compound.js"></script>
+    <script type="text/javascript" src="pound.js"></script>
+  </body>
+
+</html>

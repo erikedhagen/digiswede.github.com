@@ -1,0 +1,59 @@
+body {
+  background: #f1faff;
+  font-size: 16px;
+}
+
+.pound-main {
+  min-width: 280px;
+  max-width: 600px;
+  width: 65%;
+  margin: 50px auto;
+}
+
+.block-group {
+  display: block;
+}
+.inline-group {
+  display: inline-block;
+}
+
+form {
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+input, button {
+  display: inline-block;
+  min-width: 100px;
+  width: calc(100%);
+  box-sizing: border-box;
+  margin: 10px 5px 10px 0;
+  padding: 4px 8px;
+  font-size: inherit;
+}
+
+.input-block {
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  font-size: inherit;
+  padding: 12px;
+  border-radius: 2px;
+  vertical-align: top;
+}
+
+.pound-output {
+  padding: 12px;
+  vertical-align: top;
+}
+
+@media screen and (min-width: 500px) {
+  input, button {
+    width: calc(50% - 7px);
+  }
+}

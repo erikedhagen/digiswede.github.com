@@ -1,0 +1,9 @@
+node_modules
+bower_components
+trash
+.DS_Store
+.sass-cache
+.tmp
+.rvmrc
+.trashes
+*~

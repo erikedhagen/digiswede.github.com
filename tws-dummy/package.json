@@ -1,0 +1,24 @@
+{
+  "name": "textalk-mock",
+  "version": "0.1.0",
+  "description": "Textalk Admin Mockup",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-http-server": "^1.3.0",
+    "grunt-sass": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/erikedhagen/textalk-mock.git"
+  },
+  "author": "Erik Edhagen <erikedhagen@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/erikedhagen/textalk-mock#readme"
+}

@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+
+$font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+$icons-font-path: "../fonts/material-design-icons/";
+
+// Font sizes
+$size-medium: 16px;
+
+// Colors
+$ui-highlight-1: #983497;
+$ui-highlight-2: #9BC4BE;
+
+$ui-shade-1: white;
+$ui-shade-2: #FAFAFA;
+$ui-shade-2b:#F5f5f5;
+$ui-shade-3: #EFEFEF;
+$ui-shade-4: #EDEFF0;
+$ui-shade-5: #d2d6d7;
+$ui-shade-6: #8E9995;
+$ui-shade-7: #616765;
+$ui-shade-8: #232d3b;
+
+$body-bg: $ui-shade-4;
+
+
+// Type
+$text-default: $ui-shade-6;
+$text-dark: $ui-shade-7;
+$text-light: lighten($ui-shade-6, 10%);
+$link-default: $ui-shade-6;
+
+	// bootstrap
+	$text-color: $text-default;
+	$headings-font-weight: 300;
+	$headings-color: $text-dark;
+	$font-size-h1: 40px;
+	// $font-size-h2:
+	// $font-size-h3:
+	// $font-size-h4:
+	// $font-size-h5:
+	// $font-size-h6:
+
+
+// UI elements
+
+	// Buttons
+	$button-primary: $ui-highlight-1;
+	$button-primary-border: transparent;
+	$button-primary-bg: $ui-shade-1;
+	$button-primary-bg: white;
+	$button-primary-hover: $ui-shade-8;
+	$button-primary-hover-bg: $ui-shade-1;
+	$button-primary-hover-border: darken($button-primary-hover-bg, 20%);
+
+	// Header
+	$header-bg: $ui-shade-1;
+	$header-border: $ui-shade-5;
+	$header-shadow: rgba(0, 0, 0, 0.1);
+
+	// Drawer
+	$drawer-bg: $ui-shade-1;
+	$drawer-border: $ui-shade-5;
+
+	$drawer-item-border: $ui-shade-3; 
+	$drawer-item-active: $ui-shade-7;
+	$drawer-item-hover: $ui-shade-7;
+	$drawer-item-bg-hover: $ui-shade-2;
+		
+	$drawer-sub: $ui-shade-7;
+	$drawer-sub-active-bg: $ui-shade-2b;
+	$drawer-sub-active: $ui-highlight-1;
+
+	// Breadcrumb
+	$breadcrumb-bg: transparent;
+	$breadcrumb-color: $text-light;
+
+	// Section controls
+	$section-controls-bg: $ui-shade-2;
+
+	// Table
+	$table-border: $ui-shade-3;
+	$table-header: $ui-shade-6;
+	$table-bg: $ui-shade-1;
+	$table-bg-alt: $ui-shade-2;
+
+	$table-row-icon: $ui-shade-5;
+	$table-row-hover: $text-dark;
+	$table-row-hover-border: $ui-shade-5;
+	$table-row-hover-icon: $ui-shade-6;
+	$table-row-selected: $text-dark;
+	$table-row-selected-bg: $ui-shade-3;
+	$table-row-selected-border: $ui-highlight-1;
+	$table-row-selected-icon: $ui-highlight-1;
+

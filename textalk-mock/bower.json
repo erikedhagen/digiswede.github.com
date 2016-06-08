@@ -1,0 +1,22 @@
+{
+  "name": "textalk-mock",
+  "version": "0.1.0",
+  "authors": [
+    "Erik Edhagen <erikedhagen@gmail.com>"
+  ],
+  "description": "Textalk Admin Mockup",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-icons": "~1.0.1",
+    "materialize": "~0.96.1"
+  }
+}
